@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.new_Xuriti_project.TC_01_A_SignUP"/>
+      <class name="com.new_Xuriti_project.TC_02_B_Login"/>
+      <class name="com.new_Xuriti_project.TC_03_C_Company_add"/>
+      <class name="com.new_Xuriti_project.TC_04_D_entity_approve"/>
+      <class name="com.new_Xuriti_project.TC_05_E_Credit_plan_add"/>
+      <class name="com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer"/>
+      <class name="com.new_Xuriti_project.TC_07_G_Nbfc_add"/>
+      <class name="com.new_Xuriti_project.TC_08_H_Nbfc_mapping"/>
+      <class name="com.new_Xuriti_project.TC_09_I_credit_limit_set"/>
+      <class name="com.new_Xuriti_project.TC_10_J_credit_limit_approve"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1853 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">52 methods, 11 failed,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm" class="method navigator-link" hash-for-method="Buyer_invoice_confirm">Buyer_invoice_confirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_13_M_part_payment" class="method navigator-link" hash-for-method="Buyer_invoice_confirm">Buyer_invoice_confirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_04_D_entity_approve" class="method navigator-link" hash-for-method="Company_status_approve">Company_status_approve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_10_J_credit_limit_approve" class="method navigator-link" hash-for-method="Credit_limit_approve">Credit_limit_approve</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_09_I_credit_limit_set" class="method navigator-link" hash-for-method="Credit_limit_set">Credit_limit_set</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer" class="method navigator-link" hash-for-method="Credit_plan_map_buyer">Credit_plan_map_buyer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment" class="method navigator-link" hash-for-method="Extra_and_full_offline_payment">Extra_and_full_offline_payment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_18_R_KYC_upload" class="method navigator-link" hash-for-method="KYC_upload">KYC_upload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_05_E_Credit_plan_add" class="method navigator-link" hash-for-method="add_credit_plan">add_credit_plan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_08_H_Nbfc_mapping" class="method navigator-link" hash-for-method="nbfc_map">nbfc_map</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_15_O_offline_part_payment" class="method navigator-link" hash-for-method="offline_part_payment">offline_part_payment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_14_N_Full_payment" class="method navigator-link" hash-for-method="Buyer_full_payment">Buyer_full_payment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload" class="method navigator-link" hash-for-method="Buyer_invoice_upload">Buyer_invoice_upload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_05_E_Credit_plan_add" class="method navigator-link" hash-for-method="LaunchAdmin">LaunchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_10_J_credit_limit_approve" class="method navigator-link" hash-for-method="LaunchAdmin">LaunchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_04_D_entity_approve" class="method navigator-link" hash-for-method="LaunchAdmin">LaunchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_09_I_credit_limit_set" class="method navigator-link" hash-for-method="LaunchAdmin">LaunchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer" class="method navigator-link" hash-for-method="LaunchAdmin">LaunchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_15_O_offline_part_payment" class="method navigator-link" hash-for-method="LaunchAdmin">LaunchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment" class="method navigator-link" hash-for-method="LaunchAdmin">LaunchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_01_A_SignUP" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_03_C_Company_add" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_08_H_Nbfc_mapping" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_13_M_part_payment" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_14_N_Full_payment" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_18_R_KYC_upload" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_02_B_Login" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_07_G_Nbfc_add" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement" class="method navigator-link" hash-for-method="Launch_Xuriti">Launch_Xuriti</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_08_H_Nbfc_mapping" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_15_O_offline_part_payment" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_07_G_Nbfc_add" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_04_D_entity_approve" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_10_J_credit_limit_approve" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_05_E_Credit_plan_add" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_09_I_credit_limit_set" class="method navigator-link" hash-for-method="Login_Admin">Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement" class="method navigator-link" hash-for-method="Reports_Transactional_statement">Reports_Transactional_statement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_14_N_Full_payment" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_02_B_Login" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_13_M_part_payment" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_18_R_KYC_upload" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_03_C_Company_add" class="method navigator-link" hash-for-method="User_Login">User_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_01_A_SignUP" class="method navigator-link" hash-for-method="User_signup">User_signup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_07_G_Nbfc_add" class="method navigator-link" hash-for-method="nbfc_add">nbfc_add</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.new_Xuriti_project.TC_03_C_Company_add" class="method navigator-link" hash-for-method="new_company_create">new_company_create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Extra_and_full_offline_payment">
+                  </a> <!-- Extra_and_full_offline_payment -->
+                  <span class="method-name">Extra_and_full_offline_payment</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;mat-option-16&quot;]/span&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2ec05a327e41179ebfce3e7222fff8c, findElement {using=xpath, value=//*[@id=&quot;mat-option-16&quot;]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.aOG2ii}, goog:chromeOptions: {debuggerAddress: localhost:34979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34979/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d2ec05a327e41179ebfce3e7222fff8c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Offline_payment.part_payment_offline(Offline_payment.java:31)
+	at com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment.Extra_and_full_offline_payment(TC_16_P_Extra_full_offline_payment.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_05_E_Credit_plan_add</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_credit_plan">
+                  </a> <!-- add_credit_plan -->
+                  <span class="method-name">add_credit_plan</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;companylist-page&quot;]/div/table/tbody/tr[1]/td[7]/button[2]/span[1]/mat-icon&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8cc917c7ffe9348196502ec13ddced5, findElement {using=xpath, value=//*[@id=&quot;companylist-page&quot;]/div/table/tbody/tr[1]/td[7]/button[2]/span[1]/mat-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.enjr3A}, goog:chromeOptions: {debuggerAddress: localhost:46021}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:46021/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e8cc917c7ffe9348196502ec13ddced5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Company_status_change.Add_credit_plan(Company_status_change.java:79)
+	at com.new_Xuriti_project.TC_05_E_Credit_plan_add.add_credit_plan(TC_05_E_Credit_plan_add.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Buyer_invoice_confirm">
+                  </a> <!-- Buyer_invoice_confirm -->
+                  <span class="method-name">Buyer_invoice_confirm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;purchasedashboard-page&quot;]/div/div/table/tbody/tr[1]/td[13]/button[1]/span[1]/mat-icon&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa2374e8bcb2ddc8b12494105e8ab90c, findElement {using=xpath, value=//*[@id=&quot;purchasedashboard-page&quot;]/div/div/table/tbody/tr[1]/td[13]/button[1]/span[1]/mat-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.9icDy5}, goog:chromeOptions: {debuggerAddress: localhost:37255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:37255/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa2374e8bcb2ddc8b12494105e8ab90c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Invoice_upload.Buyer_invoice_confirm(Invoice_upload.java:57)
+	at com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm.Buyer_invoice_confirm(TC_12_L_Buyer_invoice_confirm.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_18_R_KYC_upload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="KYC_upload">
+                  </a> <!-- KYC_upload -->
+                  <span class="method-name">KYC_upload</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#panid&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [487dabd5a894992050fa6f25e39ba759, findElement {using=id, value=panid}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.9S5iQF}, goog:chromeOptions: {debuggerAddress: localhost:34279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34279/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 487dabd5a894992050fa6f25e39ba759
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.KYC_add.kyc_add_buyer(KYC_add.java:41)
+	at com.new_Xuriti_project.TC_18_R_KYC_upload.KYC_upload(TC_18_R_KYC_upload.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_09_I_credit_limit_set</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Credit_limit_set">
+                  </a> <!-- Credit_limit_set -->
+                  <span class="method-name">Credit_limit_set</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/app-root/app-dashboard/app-layout/mat-sidenav-container/mat-sidenav/div/app-sidebar/div/div/div[3]/mat-nav-list/mat-list-item[4]/span/mat-icon&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9bd94a04f076e4a01f3362875e60b341, findElement {using=xpath, value=/html/body/app-root/app-dashboard/app-layout/mat-sidenav-container/mat-sidenav/div/app-sidebar/div/div/div[3]/mat-nav-list/mat-list-item[4]/span/mat-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.jgBjWU}, goog:chromeOptions: {debuggerAddress: localhost:36583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36583/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9bd94a04f076e4a01f3362875e60b341
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Company_status_change.credit_limit_set(Company_status_change.java:158)
+	at com.new_Xuriti_project.TC_09_I_credit_limit_set.Credit_limit_set(TC_09_I_credit_limit_set.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Credit_plan_map_buyer">
+                  </a> <!-- Credit_plan_map_buyer -->
+                  <span class="method-name">Credit_plan_map_buyer</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;companylist-page&quot;]/div/table/tbody/tr[1]/td[7]/button[2]/span[1]/mat-icon&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acc9d1025d16a881cea47eb355e1b115, findElement {using=xpath, value=//*[@id=&quot;companylist-page&quot;]/div/table/tbody/tr[1]/td[7]/button[2]/span[1]/mat-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.WpF02Y}, goog:chromeOptions: {debuggerAddress: localhost:36741}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36741/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: acc9d1025d16a881cea47eb355e1b115
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Company_status_change.credit_plan_mapping(Company_status_change.java:131)
+	at com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer.Credit_plan_map_buyer(TC_06_F_credit_plan_map_buyer.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_08_H_Nbfc_mapping</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nbfc_map">
+                  </a> <!-- nbfc_map -->
+                  <span class="method-name">nbfc_map</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/app-root/app-dashboard/app-layout/mat-sidenav-container/mat-sidenav/div/app-sidebar/div/div/div[3]/mat-nav-list/mat-list-item[10]/span/span[2]&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [895d4bb067a0cabe006b346edeb7996f, findElement {using=xpath, value=/html/body/app-root/app-dashboard/app-layout/mat-sidenav-container/mat-sidenav/div/app-sidebar/div/div/div[3]/mat-nav-list/mat-list-item[10]/span/span[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.dSaTHy}, goog:chromeOptions: {debuggerAddress: localhost:38799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38799/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 895d4bb067a0cabe006b346edeb7996f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.NBFC_add.nbfc_mapping(NBFC_add.java:115)
+	at com.new_Xuriti_project.TC_08_H_Nbfc_mapping.nbfc_map(TC_08_H_Nbfc_mapping.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_10_J_credit_limit_approve</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Credit_limit_approve">
+                  </a> <!-- Credit_limit_approve -->
+                  <span class="method-name">Credit_limit_approve</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/app-root/app-dashboard/app-layout/mat-sidenav-container/mat-sidenav/div/app-sidebar/div/div/div[3]/mat-nav-list/mat-list-item[2]/span/mat-icon&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40b3484fe337f8493caeda27912f9b7e, findElement {using=xpath, value=/html/body/app-root/app-dashboard/app-layout/mat-sidenav-container/mat-sidenav/div/app-sidebar/div/div/div[3]/mat-nav-list/mat-list-item[2]/span/mat-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.rRAttO}, goog:chromeOptions: {debuggerAddress: localhost:34125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34125/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40b3484fe337f8493caeda27912f9b7e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Company_status_change.credit_limit_approve(Company_status_change.java:183)
+	at com.new_Xuriti_project.TC_10_J_credit_limit_approve.Credit_limit_approve(TC_10_J_credit_limit_approve.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_04_D_entity_approve</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Company_status_approve">
+                  </a> <!-- Company_status_approve -->
+                  <span class="method-name">Company_status_approve</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;companylist-page&quot;]/div/table/tbody/tr[1]/td[7]/button[1]/span[1]/mat-icon&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [953e0d2daeba245d5b20e726b3c0eb53, findElement {using=xpath, value=//*[@id=&quot;companylist-page&quot;]/div/table/tbody/tr[1]/td[7]/button[1]/span[1]/mat-icon}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.VouTIJ}, goog:chromeOptions: {debuggerAddress: localhost:37751}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:37751/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 953e0d2daeba245d5b20e726b3c0eb53
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Company_status_change.Company_status_approve(Company_status_change.java:27)
+	at com.new_Xuriti_project.TC_04_D_entity_approve.Company_status_approve(TC_04_D_entity_approve.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_15_O_offline_part_payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="offline_part_payment">
+                  </a> <!-- offline_part_payment -->
+                  <span class="method-name">offline_part_payment</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;mat-option-16&quot;]/span&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ae3fddecf120848a717e11e6efde82a5, findElement {using=xpath, value=//*[@id=&quot;mat-option-16&quot;]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.9kW3Aq}, goog:chromeOptions: {debuggerAddress: localhost:46803}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:46803/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae3fddecf120848a717e11e6efde82a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Offline_payment.part_payment_offline(Offline_payment.java:31)
+	at com.new_Xuriti_project.TC_15_O_offline_part_payment.offline_part_payment(TC_15_O_offline_part_payment.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_13_M_part_payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Buyer_invoice_confirm">
+                  </a> <!-- Buyer_invoice_confirm -->
+                  <span class="method-name">Buyer_invoice_confirm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;dkp-container-main&quot;]/div[3]/div[2]/div[3]/div[2]/div/div/span&quot;}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;techtrail-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-52-generic&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d9a8fb8abbf8d4f81c5f9925fc1bf9a, findElement {using=xpath, value=//*[@id=&quot;dkp-container-main&quot;]/div[3]/div[2]/div[3]/div[2]/div/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /tmp/.com.google.Chrome.x6eX9W}, goog:chromeOptions: {debuggerAddress: localhost:43015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43015/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d9a8fb8abbf8d4f81c5f9925fc1bf9a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at com.new_Xuriti_project.Invoice_upload.Part_payment(Invoice_upload.java:108)
+	at com.new_Xuriti_project.TC_13_M_part_payment.Buyer_invoice_confirm(TC_13_M_part_payment.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_05_E_Credit_plan_add</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAdmin">
+                  </a> <!-- LaunchAdmin -->
+                  <span class="method-name">LaunchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_18_R_KYC_upload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Buyer_invoice_upload">
+                  </a> <!-- Buyer_invoice_upload -->
+                  <span class="method-name">Buyer_invoice_upload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_07_G_Nbfc_add</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nbfc_add">
+                  </a> <!-- nbfc_add -->
+                  <span class="method-name">nbfc_add</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_09_I_credit_limit_set</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAdmin">
+                  </a> <!-- LaunchAdmin -->
+                  <span class="method-name">LaunchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_02_B_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_08_H_Nbfc_mapping</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_14_N_Full_payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Buyer_full_payment">
+                  </a> <!-- Buyer_full_payment -->
+                  <span class="method-name">Buyer_full_payment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_04_D_entity_approve</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAdmin">
+                  </a> <!-- LaunchAdmin -->
+                  <span class="method-name">LaunchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_15_O_offline_part_payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAdmin">
+                  </a> <!-- LaunchAdmin -->
+                  <span class="method-name">LaunchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Reports_Transactional_statement">
+                  </a> <!-- Reports_Transactional_statement -->
+                  <span class="method-name">Reports_Transactional_statement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAdmin">
+                  </a> <!-- LaunchAdmin -->
+                  <span class="method-name">LaunchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_03_C_Company_add</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="new_company_create">
+                  </a> <!-- new_company_create -->
+                  <span class="method-name">new_company_create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_01_A_SignUP</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_signup">
+                  </a> <!-- User_signup -->
+                  <span class="method-name">User_signup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAdmin">
+                  </a> <!-- LaunchAdmin -->
+                  <span class="method-name">LaunchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_10_J_credit_limit_approve</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchAdmin">
+                  </a> <!-- LaunchAdmin -->
+                  <span class="method-name">LaunchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Admin">
+                  </a> <!-- Login_Admin -->
+                  <span class="method-name">Login_Admin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.new_Xuriti_project.TC_13_M_part_payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_Xuriti">
+                  </a> <!-- Launch_Xuriti -->
+                  <span class="method-name">Launch_Xuriti</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Login">
+                  </a> <!-- User_Login -->
+                  <span class="method-name">User_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/tech-trail/Downloads/Positive_test_script/Positive_Test_Script_U/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_01_A_SignUP&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_02_B_Login&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_03_C_Company_add&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_04_D_entity_approve&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_05_E_Credit_plan_add&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_07_G_Nbfc_add&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_08_H_Nbfc_mapping&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_09_I_credit_limit_set&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_10_J_credit_limit_approve&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_13_M_part_payment&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_14_N_Full_payment&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_15_O_offline_part_payment&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement&quot;/&gt;
+      &lt;class name=&quot;com.new_Xuriti_project.TC_18_R_KYC_upload&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(52);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'nbfc_add')
+data.setCell(0, 2, 'com.new_Xuriti_project.TC_07_G_Nbfc_add')
+data.setCell(0, 3, 52074);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Buyer_invoice_confirm')
+data.setCell(1, 2, 'com.new_Xuriti_project.TC_13_M_part_payment')
+data.setCell(1, 3, 38872);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Buyer_full_payment')
+data.setCell(2, 2, 'com.new_Xuriti_project.TC_14_N_Full_payment')
+data.setCell(2, 3, 35484);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Buyer_invoice_confirm')
+data.setCell(3, 2, 'com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm')
+data.setCell(3, 3, 15243);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'User_signup')
+data.setCell(4, 2, 'com.new_Xuriti_project.TC_01_A_SignUP')
+data.setCell(4, 3, 13832);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'KYC_upload')
+data.setCell(5, 2, 'com.new_Xuriti_project.TC_18_R_KYC_upload')
+data.setCell(5, 3, 13637);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'new_company_create')
+data.setCell(6, 2, 'com.new_Xuriti_project.TC_03_C_Company_add')
+data.setCell(6, 3, 11416);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Launch_Xuriti')
+data.setCell(7, 2, 'com.new_Xuriti_project.TC_01_A_SignUP')
+data.setCell(7, 3, 11162);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Buyer_invoice_upload')
+data.setCell(8, 2, 'com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload')
+data.setCell(8, 3, 10342);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Reports_Transactional_statement')
+data.setCell(9, 2, 'com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement')
+data.setCell(9, 3, 9228);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Launch_Xuriti')
+data.setCell(10, 2, 'com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm')
+data.setCell(10, 3, 9053);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Company_status_approve')
+data.setCell(11, 2, 'com.new_Xuriti_project.TC_04_D_entity_approve')
+data.setCell(11, 3, 8093);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Credit_plan_map_buyer')
+data.setCell(12, 2, 'com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer')
+data.setCell(12, 3, 8090);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'add_credit_plan')
+data.setCell(13, 2, 'com.new_Xuriti_project.TC_05_E_Credit_plan_add')
+data.setCell(13, 3, 8084);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Login_Admin')
+data.setCell(14, 2, 'com.new_Xuriti_project.TC_07_G_Nbfc_add')
+data.setCell(14, 3, 7138);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Login_Admin')
+data.setCell(15, 2, 'com.new_Xuriti_project.TC_08_H_Nbfc_mapping')
+data.setCell(15, 3, 7067);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Launch_Xuriti')
+data.setCell(16, 2, 'com.new_Xuriti_project.TC_14_N_Full_payment')
+data.setCell(16, 3, 7026);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Login_Admin')
+data.setCell(17, 2, 'com.new_Xuriti_project.TC_05_E_Credit_plan_add')
+data.setCell(17, 3, 6657);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Login_Admin')
+data.setCell(18, 2, 'com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer')
+data.setCell(18, 3, 6584);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Login_Admin')
+data.setCell(19, 2, 'com.new_Xuriti_project.TC_04_D_entity_approve')
+data.setCell(19, 3, 6583);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Login_Admin')
+data.setCell(20, 2, 'com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment')
+data.setCell(20, 3, 6557);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Login_Admin')
+data.setCell(21, 2, 'com.new_Xuriti_project.TC_10_J_credit_limit_approve')
+data.setCell(21, 3, 6552);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Login_Admin')
+data.setCell(22, 2, 'com.new_Xuriti_project.TC_09_I_credit_limit_set')
+data.setCell(22, 3, 6552);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Login_Admin')
+data.setCell(23, 2, 'com.new_Xuriti_project.TC_15_O_offline_part_payment')
+data.setCell(23, 3, 6515);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Launch_Xuriti')
+data.setCell(24, 2, 'com.new_Xuriti_project.TC_18_R_KYC_upload')
+data.setCell(24, 3, 6515);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'User_Login')
+data.setCell(25, 2, 'com.new_Xuriti_project.TC_03_C_Company_add')
+data.setCell(25, 3, 6368);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'User_Login')
+data.setCell(26, 2, 'com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm')
+data.setCell(26, 3, 6364);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'User_Login')
+data.setCell(27, 2, 'com.new_Xuriti_project.TC_18_R_KYC_upload')
+data.setCell(27, 3, 6364);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'User_Login')
+data.setCell(28, 2, 'com.new_Xuriti_project.TC_02_B_Login')
+data.setCell(28, 3, 6357);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'User_Login')
+data.setCell(29, 2, 'com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement')
+data.setCell(29, 3, 6345);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'User_Login')
+data.setCell(30, 2, 'com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload')
+data.setCell(30, 3, 6344);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'User_Login')
+data.setCell(31, 2, 'com.new_Xuriti_project.TC_14_N_Full_payment')
+data.setCell(31, 3, 6341);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'User_Login')
+data.setCell(32, 2, 'com.new_Xuriti_project.TC_13_M_part_payment')
+data.setCell(32, 3, 6289);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Extra_and_full_offline_payment')
+data.setCell(33, 2, 'com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment')
+data.setCell(33, 3, 6245);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'offline_part_payment')
+data.setCell(34, 2, 'com.new_Xuriti_project.TC_15_O_offline_part_payment')
+data.setCell(34, 3, 6237);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Launch_Xuriti')
+data.setCell(35, 2, 'com.new_Xuriti_project.TC_08_H_Nbfc_mapping')
+data.setCell(35, 3, 5989);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Launch_Xuriti')
+data.setCell(36, 2, 'com.new_Xuriti_project.TC_07_G_Nbfc_add')
+data.setCell(36, 3, 5681);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Launch_Xuriti')
+data.setCell(37, 2, 'com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement')
+data.setCell(37, 3, 5620);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Credit_limit_set')
+data.setCell(38, 2, 'com.new_Xuriti_project.TC_09_I_credit_limit_set')
+data.setCell(38, 3, 5023);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'nbfc_map')
+data.setCell(39, 2, 'com.new_Xuriti_project.TC_08_H_Nbfc_mapping')
+data.setCell(39, 3, 5017);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Launch_Xuriti')
+data.setCell(40, 2, 'com.new_Xuriti_project.TC_13_M_part_payment')
+data.setCell(40, 3, 4780);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'LaunchAdmin')
+data.setCell(41, 2, 'com.new_Xuriti_project.TC_10_J_credit_limit_approve')
+data.setCell(41, 3, 4504);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'Launch_Xuriti')
+data.setCell(42, 2, 'com.new_Xuriti_project.TC_02_B_Login')
+data.setCell(42, 3, 4377);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Launch_Xuriti')
+data.setCell(43, 2, 'com.new_Xuriti_project.TC_03_C_Company_add')
+data.setCell(43, 3, 4168);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Launch_Xuriti')
+data.setCell(44, 2, 'com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload')
+data.setCell(44, 3, 3612);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'LaunchAdmin')
+data.setCell(45, 2, 'com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment')
+data.setCell(45, 3, 3303);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'LaunchAdmin')
+data.setCell(46, 2, 'com.new_Xuriti_project.TC_04_D_entity_approve')
+data.setCell(46, 3, 3028);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'LaunchAdmin')
+data.setCell(47, 2, 'com.new_Xuriti_project.TC_05_E_Credit_plan_add')
+data.setCell(47, 3, 2945);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'LaunchAdmin')
+data.setCell(48, 2, 'com.new_Xuriti_project.TC_09_I_credit_limit_set')
+data.setCell(48, 3, 2521);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'LaunchAdmin')
+data.setCell(49, 2, 'com.new_Xuriti_project.TC_15_O_offline_part_payment')
+data.setCell(49, 3, 2493);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'LaunchAdmin')
+data.setCell(50, 2, 'com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer')
+data.setCell(50, 3, 2330);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'Credit_limit_approve')
+data.setCell(51, 2, 'com.new_Xuriti_project.TC_10_J_credit_limit_approve')
+data.setCell(51, 3, 2018);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_01_A_SignUP</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_signup</span>
+                <span class="method-start">11170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_02_B_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">25007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">29386 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_03_C_Company_add</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">35744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">39913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">new_company_create</span>
+                <span class="method-start">46282 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_04_D_entity_approve</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchAdmin</span>
+                <span class="method-start">57706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">60737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Company_status_approve</span>
+                <span class="method-start">67328 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_05_E_Credit_plan_add</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchAdmin</span>
+                <span class="method-start">75428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">78381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_credit_plan</span>
+                <span class="method-start">85040 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_06_F_credit_plan_map_buyer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchAdmin</span>
+                <span class="method-start">93127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">95458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Credit_plan_map_buyer</span>
+                <span class="method-start">102043 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_07_G_Nbfc_add</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">110144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">115827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nbfc_add</span>
+                <span class="method-start">122966 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_08_H_Nbfc_mapping</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">175042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">181033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">nbfc_map</span>
+                <span class="method-start">188102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_09_I_credit_limit_set</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchAdmin</span>
+                <span class="method-start">193121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">195644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Credit_limit_set</span>
+                <span class="method-start">202199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_10_J_credit_limit_approve</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchAdmin</span>
+                <span class="method-start">207224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">211733 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Credit_limit_approve</span>
+                <span class="method-start">218286 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_11_K_Buyer_invoice_upload</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">220306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">223919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Buyer_invoice_upload</span>
+                <span class="method-start">230264 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_12_L_Buyer_invoice_confirm</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">240608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">249662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Buyer_invoice_confirm</span>
+                <span class="method-start">256027 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_13_M_part_payment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">271271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">276052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Buyer_invoice_confirm</span>
+                <span class="method-start">282342 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_14_N_Full_payment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">321217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">328244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Buyer_full_payment</span>
+                <span class="method-start">334586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_15_O_offline_part_payment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchAdmin</span>
+                <span class="method-start">370071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">372565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">offline_part_payment</span>
+                <span class="method-start">379081 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_16_P_Extra_full_offline_payment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchAdmin</span>
+                <span class="method-start">385323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_Admin</span>
+                <span class="method-start">388627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Extra_and_full_offline_payment</span>
+                <span class="method-start">395185 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_17_Q_Reports_Transactional_statement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">401432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">407053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Reports_Transactional_statement</span>
+                <span class="method-start">413400 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.new_Xuriti_project.TC_18_R_KYC_upload</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Launch_Xuriti</span>
+                <span class="method-start">422629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_Login</span>
+                <span class="method-start">429148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">KYC_upload</span>
+                <span class="method-start">435513 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
