@@ -39,7 +39,7 @@ public class Homepage_User_Panel
 //        options.addArguments("--disable-gpu");
 //        options.addArguments("window-size=1920,1080");
         options.addArguments("headless");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
 			
 			
 //		ChromeOptions co = new ChromeOptions();
