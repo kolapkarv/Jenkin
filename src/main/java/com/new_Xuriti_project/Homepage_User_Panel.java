@@ -5,19 +5,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Homepage_User_Panel 
 {
 	public static final String WEB_CONTEXT = "https://dev.xuriti.app/#/";
 
 	WebDriver driver;
-	public Homepage_User_Panel(WebDriver driver) {
+	public Homepage_User_Panel(WebDriver driver) 
+	{
 		this.driver=driver;
 	}
 	
 	public WebDriver lauchBrowser(String browser) {
 		//public void Home() {
 		System.setProperty("webdriver.chrome.driver", "chromedriver");
-	
+		//WebDriverManager.chromedriver().setup();
 	     // System.setProperty("webdriver.chrome.driver", "/home/tech-trail/Documents/UI_Automation/Microservices_User_Panel_Automation_26_Aug/Microservices_User_Panel_Automation_1_Aug/Driver/chromedriver");
 		//WebDriver driver =new ChromeDriver();
 		

@@ -1,7 +1,12 @@
 package com.new_Xuriti_project;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import util.utility1;
 
 public class NBFC_add 
 {
@@ -125,9 +130,24 @@ public class NBFC_add
  		//Enter Buyer company name
  		
  		Thread.sleep(2000);
- 		driver.findElement(By.xpath("//*[@id=\"mat-input-3\"]")).sendKeys("Buyer");
+ 		//driver.findElement(By.xpath("//*[@id=\"mat-input-3\"]")).sendKeys("Buyer");
+ 		WebElement tab = driver.findElement(By.xpath("//*[@id=\"mat-input-3\"]"));
+ 		tab.sendKeys("Buyer");
  		
-
+ 		 Thread.sleep(5000);
+ 		 List<WebElement> list = driver.findElements(By.xpath("//*[@id=\"mat-autocomplete-0\"]"));
+ 		System.out.println(list);
+ 		 for(WebElement option: list)
+ 			{
+ 				if(option.getText().equals("Buyer A limit"))
+ 				{
+ 					option.click();
+ 					break;
+ 				}
+ 				
+ 			}
+ 		
+ 		
  		//click on buyer company name
  		Thread.sleep(2000);
  		 driver.findElement(By.xpath("//*[@id=\"mat-option-16\"]/span")).click();
